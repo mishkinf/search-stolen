@@ -31,7 +31,7 @@ end
 
 def facebook_search_url(item_name, miles_from_home = 5)
   km_from_home = (miles_from_home * 1.60934).round
-  "https://www.facebook.com/marketplace/320152908114578/search?query=#{item_name.gsub(" ", "+")}&latitude=#{latitude}&longitude=#{longitude}&radiusKM=#{km_from_home}&vertical=C2C"
+  "https://www.facebook.com/marketplace/320152908114578/search?query=#{item_name.gsub(" ", "+")}&latitude=#{LATITUDE}&longitude=#{LONGITUDE}&radiusKM=#{km_from_home}&vertical=C2C"
 end
 
 def perform_craigslist_search(search_terms, miles_from_home)
