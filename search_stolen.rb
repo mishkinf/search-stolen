@@ -1,20 +1,4 @@
 #!/usr/bin/env ruby
-
-# Instructions:
-#
-# 1. Install gem dependencies
-# > gem install launchy
-#
-# 2. Save this file onto your computer as "search_stolen.rb" and
-# Edit the arrays below with the product search terms you want for each website
-# Edit the ZIP_CODE, LATITUDE and LONGITUDE data to match your own location
-#
-# 3. Open a terminal and run one of the following commands
-# > ruby search_stolen.rb craigslist
-# > ruby search_stolen.rb facebook
-# > ruby search_stolen.rb offerup
-# > ruby search_stolen.rb ebay
-
 require("launchy")
 
 DEFAULT_MILES_FROM_HOME = 5
